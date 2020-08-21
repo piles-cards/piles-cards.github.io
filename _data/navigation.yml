@@ -1,24 +1,20 @@
-- name: Pricing
+- name: Features
   link: /pricing/
   new_window: false
   highlight: false
-- name: Blog
-  link: /blog/
+- name: Pricing
+  link: /pricing/
   new_window: false
   highlight: false
 - name: About
   link: /about/
   new_window: false
   highlight: false
-- name: Contact
-  link: /contact/
-  new_window: false
-  highlight: false
 - name: Login
-  link: /
+  link: https://spoo.rocks
   new_window: true
   highlight: false
 - name: Sign Up
-  link: /
+  link: https://spoo.rocks/#client-register
   new_window: true
   highlight: true
