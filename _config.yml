@@ -30,7 +30,7 @@ collections:
     _hide_content: true
 
 paginate: 10
-paginate_path: "/blog/:num/"
+paginate_path: "/howto/:num/"
 permalink: pretty
 
 defaults:
@@ -44,15 +44,6 @@ defaults:
         content:
           width: 1500
           height: 2500
-  -
-    scope:
-      path: ""
-      type: "staff_members"
-    values:
-      _options:
-        image_path:
-          width: 600
-          height: 600
   -
     scope:
       path: ""
@@ -91,14 +82,8 @@ exclude:
 
 social_icons:
   - Facebook
-  - Google Plus
-  - Instagram
-  - LinkedIn
   - Pinterest
-  - Tumblr
   - Twitter
-  - YouTube
-  - RSS
 
 _comments:
   map: Update the map location and display settings.

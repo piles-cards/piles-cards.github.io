@@ -4,7 +4,7 @@
 	{% for link in site.data.navigation %}
 		{% assign class = "" %}
 		{% if link.highlight %}
-			{% assign class = class | append: " highlight" %}
+			{% assign class = class | append: " leto-button-sm leto-bg-blue leto-text-white leto-mv-none" %}
 		{% endif %}
 
 		{% if link.link == page.url %}
