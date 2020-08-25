@@ -1,11 +1,11 @@
-- name: Features
-  link: /pricing/
-  new_window: false
-  highlight: false
-- name: Examples
-  link: /about/
-  new_window: false
-  highlight: false
+#- name: Features
+#  link: /pricing/
+#  new_window: false
+#  highlight: false
+#- name: Examples
+#  link: /about/
+#  new_window: false
+#  highlight: false
 - name: Pricing
   link: /pricing/
   new_window: false
