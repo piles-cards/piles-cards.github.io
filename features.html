@@ -1,0 +1,26 @@
+---
+title: Features
+heading: A hand full of features. Not more.
+description: Piles&Cards Features are designed for simplicity
+faq:
+  - headline: Cards
+    details: Cards are used to represent anything. Any card can have dynamic characteristics, actions, references and more.
+  - headline: Piles
+    details: Piles are used for displaying cards in a context. Piles can dynamically select any subset of cards and can be visualized as list, grid or table
+  - headline: Model
+    details: Models are the templates where cards originate from. They define different card types and which properties a card of that type has.
+  - headline: Form
+    details: Forms are dynamic ways to display individual cards and their information
+---
+<div class="plans">
+
+{% if page.faq %}
+	<dl class="faq">
+		{% for item in page.faq %}
+			<div>
+				<dt>{{ item.headline }}</dt>
+				<dd>{{ item.details }}</dd>
+			</div>
+		{% endfor %}
+	</dl>
+{% endif %}

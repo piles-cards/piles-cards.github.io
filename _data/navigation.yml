@@ -1,18 +1,14 @@
-#- name: Features
-#  link: /pricing/
-#  new_window: false
-#  highlight: false
-#- name: Examples
-#  link: /about/
-#  new_window: false
-#  highlight: false
+- name: Features
+  link: /features/
+  new_window: false
+  highlight: false
+- name: Examples
+  link: /blog/
+  new_window: false
+  highlight: false
 - name: Pricing
   link: /pricing/
   new_window: false
-  highlight: false
-- name: Login
-  link: https://spoo.rocks
-  new_window: true
   highlight: false
 - name: Launch App
   link: https://spoo.rocks/#client-register
