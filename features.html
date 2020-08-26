@@ -2,27 +2,48 @@
 title: Features
 heading: A hand full of features. Not more.
 description: Piles&Cards Features are designed for simplicity
-faq:
+features:
   - headline: Cards
     details: Cards are used to represent anything. Any card can have dynamic characteristics, actions, references and more.
   - headline: Piles
     details: Piles are used for displaying cards in a context. Piles can dynamically select any subset of cards and can be visualized as list, grid or table
-  - headline: Model
+  - headline: Models
     details: Models are the templates where cards originate from. They define different card types and which properties a card of that type has.
-  - headline: Form
+  - headline: Forms
     details: Forms are dynamic ways to display individual cards and their information
   - headline: Global Search
     details: An always-visible global search bar helps you navigate to the piles and cards you need
+  - headline: Extended Reporting
+    details: Any pile can be configured for detailed, dynamic reporting. Including export, mass changes and more.
+further_features:
+  - headline: Offline capability
+  - headline: Dark/Light mode
+  - headline: User permissions
+  - headline: Access management
 ---
 <div class="plans">
 
-{% if page.faq %}
+{% if page.features %}
 	<dl class="faq">
-		{% for item in page.faq %}
+		{% for item in page.features %}
 			<div>
 				<dt>{{ item.headline }}</dt>
 				<dd>{{ item.details }}</dd>
 			</div>
 		{% endfor %}
 	</dl>
+{% endif %}
+</div>
+
+{% if page.further_features %}
+<center>
+  <b>And some other cool things, like</b>
+  <div class="leto-group leto-horizontal-center">
+    {% for item in page.further_features %}
+      <div class="leto-m ">
+        {{ item.headline }}
+      </div>
+    {% endfor %}
+  </div>
+</center>
 {% endif %}
