@@ -11,6 +11,6 @@
   new_window: false
   highlight: false
 - name: Launch App
-  link: https://spoo.cards/#client-register
+  link: https://piles.cards/#client-register
   new_window: true
   highlight: true
